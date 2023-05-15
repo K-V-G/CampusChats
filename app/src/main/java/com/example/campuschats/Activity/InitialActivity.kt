@@ -145,7 +145,8 @@ fun initialActivityFun(navController: NavHostController) {
                     .align(Alignment.CenterHorizontally)) {
                     Button(
                         onClick = {
-                                navController.navigate(route = NavigationActions.Authorization.route)
+                                /*navController.navigate(route = NavigationActions.Authorization.route)*/
+                            navController.navigate(route = NavigationActions.Profile.route)
                                   },
                         modifier = Modifier
                             .width(205.dp)
